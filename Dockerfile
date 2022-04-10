@@ -16,5 +16,6 @@ RUN 7z e chess-engine.zip && rm chess-engine.zip && mv stockfish* chess-engine
 COPY requirements.txt .
 RUN python3 -m pip install --no-cache-dir -r requirements.txt
 
-RUN chmod +x chess-engine
+#RUN chmod +x chess-engine
+RUN chmod +x .engines/stockfish
 # Engine name is here ^^^^^^
