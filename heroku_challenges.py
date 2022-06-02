@@ -21,5 +21,5 @@ class Heroku_Challenges:
 
 
 if __name__ == '__main__':
-    heroku = Heroku_Challenges()
-    heroku.start()
+    hc = Heroku_Challenges()
+    hc.start()
